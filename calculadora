@@ -1,0 +1,49 @@
+def quiz():
+        print("Bem-vindo ao quiz!")
+        primeira_pergunta = input("1. Qual é a capital do Japão? ")
+        if primeira_pergunta.lower() == "tokyo" or "toquio":
+            print("Sucesso!")
+        else:
+            print("Resposta errada.")
+
+contador = 0
+
+while contador == 0:
+    print("Qual opção?")
+    print("1. Calculadora")
+    print("2. Questionário")
+    qual_opcao = input("Escolha: ")
+
+    if qual_opcao == "fim":
+        break
+
+    if qual_opcao.lower() == "calculadora":
+        # Calculadora
+        primeiro_numero = int(input("Digite o primeiro número: "))
+        segundo_numero = int(input("Digite o segundo número: "))
+
+        print("1. Divisão")
+        print("2. Adição")
+        print("3. Multiplicação")
+        print("4. Potência")
+        print("5. Subtração")
+        print("6. porcentagem")
+        qual_operacao = input("Qual operação? ")
+
+        if qual_operacao == "/" or qual_operacao.lower() == "divisao":
+            print(primeiro_numero / segundo_numero)
+        elif qual_operacao == "+" or qual_operacao.lower() == "adição":
+            print(primeiro_numero + segundo_numero)
+        elif qual_operacao == "*" or qual_operacao.lower() == "multiplicacao" or "multiplicação":
+            print(primeiro_numero * segundo_numero)
+        elif qual_operacao == "**" or qual_operacao.lower() == "potência":
+            print(primeiro_numero ** segundo_numero)
+        elif qual_operacao == "-" or qual_operacao.lower() == "subtracao":
+        elif qual_operacao == "porcentagem" or qual_operacao.lower() == "porcentagem":
+            print((primeiro_numero / 100) * segundo_numero)
+        elif qual_operacao.lower() == "fim":
+            break
+    elif qual_opcao.lower() == "questionário" or "quiz":
+        quiz()
+    elif qual_opcao.lower() == "fim":
+        break
