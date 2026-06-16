@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>game clicker online</title>
+</head>
+<body>
+    
+    <h1>
+        game clicker
+    </h1>
+
+    <div>
+    <button class="botao_clique">
+        clique aqui
+    </button>
+    </div>
+
+    <button class="botao_um">
+        upar +1
+    </button>
+    <button class="botao_dois">
+        upar +2
+    </button>
+    <button class="botao_tres">
+        upar +5
+    </button>
+    <button class="botao_quatro">
+        upar +10
+    </button>
+</body>
+</html>
