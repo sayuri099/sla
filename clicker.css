@@ -1,0 +1,19 @@
+body{
+    color: black;
+}
+
+h1{
+    margin-left: 510px;
+    margin-top: 50px;
+}
+
+.botao_clique{
+    margin-left: 550px;
+    margin-top: 100px;
+    font-size: 30px;
+}
+
+.botao_um{
+    margin-top: 200px;
+}
+
