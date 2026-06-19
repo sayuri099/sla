@@ -3,17 +3,39 @@ body{
 }
 
 h1{
-    margin-left: 510px;
+    margin-left: 570px;
     margin-top: 50px;
 }
 
 .botao_clique{
-    margin-left: 550px;
+    margin-left: 580px;
     margin-top: 100px;
     font-size: 30px;
 }
 
 .botao_um{
+    font-size: 20px;
     margin-top: 200px;
+    margin-left: 300px;
 }
 
+.botao_dois{
+    font-size: 20px;
+    margin-top: 200px;
+    margin-left: 400px;
+}
+
+.botao_tres{
+    font-size: 20px;
+    margin-left: 500px;
+}
+
+.botao_quatro{
+    font-size: 20px;
+    margin-left: 600px;
+}
+
+.botao_cinco{
+    font-size: 20px;
+    margin-left: 700px;
+}
