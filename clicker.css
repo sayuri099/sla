@@ -3,7 +3,7 @@ body{
 }
 
 h1{
-    margin-left: 570px;
+    margin-left: 550px;
     margin-top: 50px;
 }
 
@@ -15,27 +15,45 @@ h1{
 
 .botao_um{
     font-size: 20px;
-    margin-top: 200px;
+    margin-top:200px ;
     margin-left: 300px;
+    margin-bottom: 50px;
 }
 
 .botao_dois{
     font-size: 20px;
     margin-top: 200px;
     margin-left: 400px;
+    margin-bottom: 50px;
 }
+
 
 .botao_tres{
     font-size: 20px;
+    margin-top: 200px;
     margin-left: 500px;
+    margin-bottom: 50px;
 }
+
 
 .botao_quatro{
     font-size: 20px;
+    margin-top: 200px;
     margin-left: 600px;
+    margin-bottom: 50px;
+
 }
 
 .botao_cinco{
     font-size: 20px;
+    margin-top: 200px;
     margin-left: 700px;
+    margin-bottom: 50px;
+}
+
+.botoes{
+    font-size: 20px;
+    margin-top: 200px;
+    margin-left: 700px;
+    margin-bottom: 50px;
 }
