@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,13 +17,15 @@
         clique aqui
     </button>
     </div>
-
-    <button class="botao_um">
+    <div class=" botoes">
+    <button>
         upar +1
     </button>
-    <button class="botao_dois">
+    <button>
         upar +2
     </button>
+    </div>
+    
     <button class="botao_tres">
         upar +5
     </button>
