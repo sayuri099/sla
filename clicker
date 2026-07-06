@@ -17,20 +17,21 @@
         clique aqui
     </button>
     </div>
-    <div class=" botoes">
-    <button>
-        upar +1
-    </button>
-    <button>
-        upar +2
-    </button>
-    </div>
     
-    <button class="botao_tres">
-        upar +5
-    </button>
-    <button class="botao_quatro">
-        upar +10
-    </button>
-</body>
+    <div id="botoes" class="botoes">
+        <button>
+            upar +1
+        </button>
+        <button>
+            upar +2
+        </button>
+        <button>
+            upar +5
+        </button>
+        <button>
+            upar +10
+          </button>
+      </div>
+    
+	</body>
 </html>
