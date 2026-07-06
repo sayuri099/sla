@@ -11,24 +11,25 @@
     <h1>
         game clicker
     </h1>
+    <img class="imagem" rc="moeda.png" alt="">
 
     <div>
-    <button class="botao_clique">
+    <button onclick="botaoclique()" class="botao_clique">
         clique aqui
     </button>
     </div>
     
     <div id="botoes" class="botoes">
-        <button>
+        <button onclick="botaoUpar1()">
             upar +1
-        </button>
-        <button>
+        </button >
+        <button onclick="botaoUpar2()">
             upar +2
         </button>
-        <button>
+        <button onclick="botaoUpar5()">
             upar +5
         </button>
-        <button>
+        <button onclick="botaoUpar10()">
             upar +10
           </button>
       </div>
