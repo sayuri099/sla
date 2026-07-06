@@ -1,59 +1,28 @@
 body{
-    color: black;
+   
 }
 
 h1{
-    margin-left: 550px;
-    margin-top: 50px;
+    position: absolute;
+  height: 200px; 
+  top: 80px;
+  left: 300px;
+  
 }
 
 .botao_clique{
-    margin-left: 580px;
-    margin-top: 100px;
-    font-size: 30px;
-}
-
-.botao_um{
-    font-size: 20px;
-    margin-top:200px ;
-    margin-left: 300px;
-    margin-bottom: 50px;
-}
-
-.botao_dois{
-    font-size: 20px;
-    margin-top: 200px;
-    margin-left: 400px;
-    margin-bottom: 50px;
-}
-
-
-.botao_tres{
-    font-size: 20px;
-    margin-top: 200px;
-    margin-left: 500px;
-    margin-bottom: 50px;
-}
-
-
-.botao_quatro{
-    font-size: 20px;
-    margin-top: 200px;
-    margin-left: 600px;
-    margin-bottom: 50px;
-
-}
-
-.botao_cinco{
-    font-size: 20px;
-    margin-top: 200px;
-    margin-left: 700px;
-    margin-bottom: 50px;
+  position: absolute;
+  left: 320px;
+  font-size: 25px;
+  top: 240px;
 }
 
 .botoes{
-    font-size: 20px;
-    margin-top: 200px;
-    margin-left: 700px;
-    margin-bottom: 50px;
+  position: absolute;
+  padding: 100px;
+  top: 100px;
+  font-size: 250px;
+  left: 80px;
+
+
 }
