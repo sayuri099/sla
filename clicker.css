@@ -7,22 +7,23 @@
    height: 200%; 
    top: 10%;
    left: 40%;
+   font-size: 300%;
    
  }
  
  .botao_clique{
    position: absolute;
    left: 42%;
-   font-size: 25px;
-   top: 240px;
+   font-size: 250%;
+   top: 35%;
  }
  
  .botoes{
    position: absolute;
-   padding: 100px;
-   top: 100px;
-   font-size: 300px;
-   left: 80px;
+   padding: 10%;
+   top: 50%;
+   font-size: 1000%;
+   left: 35%;
  
  
  }
