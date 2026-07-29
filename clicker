@@ -31,8 +31,8 @@
         </button>
         <button onclick="botaoUpar10()">
             upar +10
-          </button>
-      </div>
+        </button>
+    </div>
     
 	</body>
 </html>
