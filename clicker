@@ -20,16 +20,16 @@
     </div>
     
     <div id="botoes" class="botoes">
-        <button onclick="botaoUpar1()">
+        <button class="botao1" onclick="botaoUpar1()">
             upar +1
         </button >
-        <button onclick="botaoUpar2()">
+        <button class="botao2" onclick="botaoUpar2()">
             upar +2
         </button>
-        <button onclick="botaoUpar5()">
+        <button class="botao3" onclick="botaoUpar5()">
             upar +5
         </button>
-        <button onclick="botaoUpar10()">
+        <button class="botao4" onclick="botaoUpar10()">
             upar +10
         </button>
     </div>
