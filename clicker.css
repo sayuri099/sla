@@ -18,28 +18,23 @@
    top: 35%;
  }
  
- .botoes{
-   position: absolute;
-   padding: 10%;
-   top: 40%;
-   font-size: 100px;
-   left: 25%;
-   align-items: center;
-   justify-content: space-between;
- }
+ 
+
  .botao1{
     padding: 2%;
-    font-size: 25%;
+    font-size: 100%;
+    margin-top: 30%;
  }
  .botao2{
     padding: 2%;
-    font-size: 25%;
+    font-size: 100%;
  }
  .botao3{
     padding: 2%;
-    font-size: 25%;
+    font-size: 100%;
  }
  .botao4{
     padding: 2%;
-    font-size: 25%;
+    font-size: 100%;
+    right: 50%;
  }
