@@ -1,48 +1,80 @@
 let contador = 0;
 let moeda = 0;
-let clique = 0;
-let contidade_de_moedas_nivel_1 = 10;
-let contidade_de_moedas_nivel_2 = 20;
-let contidade_de_moedas_nivel_3 = 30;
-let contidade_de_moedas_nivel_4 = 40;
-let contidade_de_moedas_nivel_5 = 50;
+let loja = 0;
+let qdm_nivel_alto = 100;
+let qdm_nivel_1 = 10;
+let qdm_nivel_2 = 20;
+let qdm_nivel_3 = 30;
+let qdm_nivel_4 = 40;
+
 let limite = 10;
 let forca_clique = 1;
-function botaoclique(){
-        clique += 1
-        contador += forca_clique
-        if (contador >= limite){
-            moeda += 1
-            limite += 10
-        }
-        }
-        
-function botaoupar1(){
-    if moeda >= contidade_de_moedas_nivel_1{
-        moeda -= contidade_de_moedas_nivel_1
-        contidade_de_moedas_nivel_1 += 10;
+
+
+let loja3 = 0;
+
+function loja1() {
+    let loja2 = document.getElementById("texto");
+
+    if (loja3 == 0) {
+        loja3 = 1;
+        loja2.style.display = "block";
+    } else {
+        loja3 = 0;
+        loja2.style.display = "none";
     }
+}
+
+
+function botaoclique() {
+    contador += forca_clique;
+
+    document.getElementById("contador").textContent = contador;
+    document.getElementById("moeda").textContent = moeda;
+
+    if (contador >= limite) {
+        moeda += 1;
+        limite += 10;
     }
-    function botãoupar2(){
-        if moeda == contidade_de_moedas_nivel_2 
-        moeda -= contidade_de_moedas_nivel_2
-        forca_clique += 2 
-    clique += 4
+}
+
+function botaoupar1() {
+    if (moeda >= qdm_nivel_1) {
+        moeda -= qdm_nivel_1;
+        qdm_nivel_1 += 10;
+        forca_clique += 1;
     }
-    function botãoupar3(){
-        forca_clique =+ 4;
-        if moeda == contidade_de_moedas_nivel_3
-        if moeda == contidade_de_moedas_nivel_3
-    clique += 4
+}
+
+function botaoupar2() {
+    if (moeda >= qdm_nivel_2) {
+        moeda -= qdm_nivel_2;
+        forca_clique += 2;
     }
-    function botãoupar4(){
-        forca_clique =+ 6
-        if moeda == contidade_de_moedas_nivel_4
-        if moeda == contidade_de_moedas_nivel_4
+}
+
+function botaoupar5() {
+    if (moeda >= qdm_nivel_3) {
+        moeda -= qdm_nivel_3;
+        forca_clique += 5;
     }
-    function botãoupar5(){
-        forca_clique =+ 8
-        if moeda == contidade_de_moedas_nivel_5
-        if moeda == contidade_de_moedas_nivel_5
+}
+
+function botaoupar10() {
+    if (moeda >= qdm_nivel_4) {
+        moeda -= qdm_nivel_4;
+        forca_clique += 10;
     }
-    
+}
+function m1ps() {
+    if (moeda >= qdm_nivel_alto) {
+        moeda -= qdm_nivel_alto;
+
+        document.getElementById("moeda").textContent = moeda;
+
+        setInterval(function() {
+            contador += 1;
+            document.getElementById("contador").textContent = contador;
+        }, 1000);
+    }
+}
