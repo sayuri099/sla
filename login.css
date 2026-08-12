@@ -1,0 +1,21 @@
+.cabecalho {
+    position: absolute;
+    top: 5%;
+    right: 40%;
+    font-size: 200%;
+    color: black;
+
+}
+
+.home {
+    margin-top: 7%;
+    text-decoration: none;
+    margin-right: 190px;
+    color: black;
+}
+
+.login {
+    text-decoration: none;
+     color: black;
+}
+ 
