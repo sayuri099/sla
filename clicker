@@ -14,7 +14,12 @@
         game clicker
     </h1>
 
-   
+     <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="home" href="index.html">home</a>
+            <a class="login" href="login.html">login</a>
+        </nav>
+    </header>
 
     <img class="imagem" src="moeda.png" alt="">
     <img class="loja_imagem" src="loja.jpg" alt="">
@@ -33,32 +38,35 @@
     </button>
 
     <div id="texto" style="display: none;">
-        <button onclick="m1ps()">
-            mais um por segundo
+        <button class="m1ps" onclick="m1ps()">
+           auto-cliquer <br> <span class="cem_coins">$100 coins</span>
         </button>
     </div>
 
     <div id="botoes" class="botoes">
 
         <button class="botao1" onclick="botaoupar1()">
-            upar +1
+            upar +1 <br> <span class="sete_coins">$7 coins</span>
         </button>
 
         <button class="botao2" onclick="botaoupar2()">
-            upar +2
+            upar +2 <br> <span class="vintecinco_coins">$25 coins</span>
         </button>
 
         <button class="botao3" onclick="botaoupar5()">
-            upar +5
+            upar +5 <br> <span class="sessentacinco_coins">$65 coins</span>
         </button>
 
         <button class="botao4" onclick="botaoupar10()">
-            upar +10
+            upar +10 <br> <span class="noventa_coins">$90 coins</span>
         </button>
 
     </div>
 
-    <script src="script.js"></script>
+    <script src="game.js"></script>
+    <footer>
+        
+    </footer>
 
 </body>
 </html>
